@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tablita"
+        android:title="Tabla de empleados"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/agregadita"
+        android:title="Agregar registros"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/crudcito"
+        android:title="Altas, bajas y cambios"
+        app:showAsAction="never" />
+</menu>
