@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/tablita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:background="#64805D"
+                android:padding="5dp">
+                <TextView android:text="clave" android:gravity="left"/>
+                <TextView android:text="puesto" android:gravity="left"/>
+                <TextView android:text="depto" android:gravity="left"/>
+                <TextView android:text="sueldo" android:gravity="left"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
